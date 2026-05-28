@@ -26,6 +26,18 @@
 
 ---
 
+## 🔗 Integração com outros projetos
+
+Os conceitos de DevOps abordados neste projeto se conectam diretamente com:
+
+- Provisionamento de infraestrutura com Terraform
+- Uso de CloudFormation para automação
+- Monitoramento com observabilidade
+
+Essas práticas formam a base de ambientes modernos de infraestrutura.
+
+---
+
 ## 🧠 Aplicação prática
 
 Os conceitos abordados são utilizados em ambientes modernos de desenvolvimento,

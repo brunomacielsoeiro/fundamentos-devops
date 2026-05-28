@@ -11,18 +11,23 @@ Um pipeline simples pode conter:
 ```yaml
 name: CI Pipeline
 
-on: [push]
+on:
+  push:
+    branches: [ "main" ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - name: Checkout do código
+        uses: actions/checkout@v3
 
-      - name: Build
-        run: echo "Build executado"
+      - name: Simular build
+        run: echo "Build executado com sucesso"
 
-      - name: Test
-        run: echo "Testes executados"
+      - name: Simular testes
+        run: echo "Testes executados com sucesso"
+
+      - name: Simular deploy
+        run: echo "Deploy realizado"
